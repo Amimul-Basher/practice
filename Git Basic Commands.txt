@@ -1,0 +1,23 @@
+git init   #To initialize git repository
+
+git add filename or git add --all or git add .
+
+git status #to check stash and unstash file
+
+git commit -m "Text to add details about commit"
+
+git log #To see all the commit made to the repository
+
+git log --online # to see the commits in short
+
+git checkout commit_identity_number(found in log --online)
+This command is used to return or restore in a certain commit point
+
+git diff or git show #to check what changes you have made but not staged 
+
+git rm filename 
+git reset HEAD filename
+
+
+git remote add origin https://github.com/Amimul-Basher/practice.git
+git push -u origin master
