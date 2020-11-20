@@ -27,3 +27,26 @@ or git clone https://github.com/Amimul-Basher/practice.git folder_name
 
 git fetch #used to let the local repository know the changes made to github account
 git pull  #used to Update local repository with all the changes
+
+git branch branch_name  #to create new branch
+git branch #to see the available branches
+git checkout branch_name #to move to the desired branch
+git checkout -b branch_name  #creates new branch and moves autometically to that branch
+
+#suppose now I'm in a master branch and want to merge the master branch with another branch
+git merge another_branch_name
+
+git branch -D branch_name
+
+git stash #used to take the changes (which are not commited but staged) in another temporary folder 
+git stash pop #to come back to the previous step
+git stash list  #to check how many stash have made
+git stash pop stash_id
+
+#to delete unstaged file
+git clean -f -n     #to check what files are getting removed
+git clean -f
+
+
+
+
