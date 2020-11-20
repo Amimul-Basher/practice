@@ -21,3 +21,9 @@ git reset HEAD filename
 
 git remote add origin https://github.com/Amimul-Basher/practice.git
 git push -u origin master
+
+git clone https://github.com/Amimul-Basher/practice.git
+or git clone https://github.com/Amimul-Basher/practice.git folder_name
+
+git fetch #used to let the local repository know the changes made to github account
+git pull  #used to Update local repository with all the changes
