@@ -1,8 +1,8 @@
-##🐰Introduction
+## 🐰Introduction
 
-##⚙️Installation
+## ⚙️Installation
 
-##📌Requirements
+## 📌Requirements
 
-##❤️Contribution
+## ❤️Contribution
 
