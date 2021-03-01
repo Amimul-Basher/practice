@@ -15,8 +15,11 @@ This command is used to return or restore in a certain commit point
 
 git diff or git show #to check what changes you have made but not staged 
 
+***To remove file from all the commit and current directory
 git rm filename 
 git reset HEAD filename
+git commit "Something is deleted"
+
 
 
 git remote add origin https://github.com/Amimul-Basher/practice.git
